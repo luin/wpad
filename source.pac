@@ -35,7 +35,7 @@ var domains = {
    "gmail.com": 1, 
    "goo.gl": 1, 
    "google.com": 1, 
-	"google.com.hk": 1, 
+   "google.com.hk": 1, 
    "google.co.jp": 1, 
    "googleapis.com": 1,
    "googlecode.com": 1, 
