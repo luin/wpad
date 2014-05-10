@@ -51,6 +51,7 @@ var domains = {
    "megaupload.com": 1, 
    "mobile01.com": 1, 
    "modmyi.com": 1,
+   "mzstatic.com": 1,
    "openvpn.net": 1, 
    "ow.ly": 1,
    "pinboard.in": 1, 
