@@ -83,20 +83,22 @@ var domains = {
 function FindProxyForURL(url, host) {
     var lastPos;
     
+    var whiteHost = host;
     do {
-        if (whiteDomains.hasOwnProperty(host)) {
+        if (whiteDomains.hasOwnProperty(whiteHost)) {
             return direct;
         }
-        lastPos = host.indexOf('.') + 1;
-        host = host.slice(lastPos);
+        lastPos = whiteHost.indexOf('.') + 1;
+        whiteHost = whiteHost.slice(lastPos);
     } while (lastPos >= 1);
     
+    var blackHost = host;
     do {
-        if (domains.hasOwnProperty(host)) {
+        if (domains.hasOwnProperty(blackHost)) {
             return proxy;
         }
-        lastPos = host.indexOf('.') + 1;
-        host = host.slice(lastPos);
+        lastPos = blackHost.indexOf('.') + 1;
+        blackHost = blackHost.slice(lastPos);
     } while (lastPos >= 1);
     
     return direct;
