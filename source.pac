@@ -53,6 +53,7 @@ var domains = {
    "imageshack.us": 1, 
    "iphone-dev.org": 1, 
    "imgur.com": 1,
+   "icloud.com": 1,
    "megaupload.com": 1, 
    "mobile01.com": 1, 
    "modmyi.com": 1,
