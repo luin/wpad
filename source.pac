@@ -1,5 +1,10 @@
 
 var direct = 'DIRECT;';
+
+var whiteDomains = {
+   "phobos.apple.com": 1
+};
+
 var domains = {
    "4shared.com": 1, 
    "amazonaws.com": 1,
@@ -77,6 +82,15 @@ var domains = {
 
 function FindProxyForURL(url, host) {
     var lastPos;
+    
+    do {
+        if (whiteDomains.hasOwnProperty(host)) {
+            return direct;
+        }
+        lastPos = host.indexOf('.') + 1;
+        host = host.slice(lastPos);
+    } while (lastPos >= 1);
+    
     do {
         if (domains.hasOwnProperty(host)) {
             return proxy;
@@ -84,5 +98,6 @@ function FindProxyForURL(url, host) {
         lastPos = host.indexOf('.') + 1;
         host = host.slice(lastPos);
     } while (lastPos >= 1);
+    
     return direct;
 }
