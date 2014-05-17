@@ -19,6 +19,7 @@ var domains = {
    "cloudfront.net": 1, 
    "crashlytics.com": 1, 
    "developer.apple.com": 1,
+   "dribbble.com": 1,
    "dropbox.com": 1, 
    "dropboxstatic.com": 1,
    "engadget.com": 1, 
