@@ -60,6 +60,7 @@ var domains = {
    "modmyi.com": 1,
    "mzstatic.com": 1,
    "openvpn.net": 1, 
+   "openwrt.org": 1,
    "ow.ly": 1,
    "pinboard.in": 1, 
    "raiya.co": 1,
