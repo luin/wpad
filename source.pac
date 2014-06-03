@@ -2,7 +2,6 @@
 var direct = 'DIRECT;';
 
 var whiteDomains = {
-   "phobos.apple.com": 1
 };
 
 var domains = {
@@ -10,7 +9,6 @@ var domains = {
    "amazonaws.com": 1,
    "android.com": 1, 
    "appspot.com": 1, 
-   "apple.com": 1,
    "bigfools.com": 1, 
    "bit.ly": 1, 
    "bitbucket.org": 1,
