@@ -31,6 +31,7 @@ var domains = {
    "eurekavpt.com": 1,
    "facebook.com": 1, 
    "facebook.net": 1, 
+   "fb.me": 1,
    "fbcdn.net": 1, 
    "feedburner.com": 1, 
    "flickr.com": 1, 
