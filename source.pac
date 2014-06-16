@@ -4,6 +4,7 @@ var domains = {
    "4shared.com": 1, 
    "amazonaws.com": 1,
    "android.com": 1, 
+   "angularjs.org": 1,
    "appspot.com": 1, 
    "bigfools.com": 1, 
    "bit.ly": 1, 
