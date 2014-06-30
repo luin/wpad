@@ -82,6 +82,7 @@ var domains = {
    "wikipedia.org": 1, 
    "windowsazure.com": 1,
    "wordpress.com": 1, 
+   "wsj.com": 1,
    "youtu.be": 1,
    "youtube-nocookie.com": 1, 
    "youtube.com": 1, 
