@@ -54,6 +54,7 @@ var domains = {
    "openvpn.net": 1, 
    "ow.ly": 1,
    "pinboard.in": 1, 
+   "slideshare.net": 1,
    "sstatic.net": 1,
    "stackoverflow.com": 1,
    "staticflickr.com": 1, 
